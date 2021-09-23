@@ -1,0 +1,113 @@
+.cont{
+    background-image: url("ani.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 2500px;
+}
+.txt
+{
+    font-weight: bolder;
+    font-size: 150px;
+    color: brown;
+}
+.img
+{
+    margin-left: 40px;
+     width:800px;
+      height:700px;
+    animation-name: ro;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-duration: 10s;
+    
+}
+@keyframes ro
+{
+    100%
+    {
+        transform: rotate(360deg);
+        transition: linear;
+
+    }
+}
+
+.a1{
+    position: absolute;
+}
+
+.a2{
+    position: absolute;
+    margin-top: 3000px;
+
+}
+
+.a1{
+    position: absolute;
+}
+
+.a1{
+    position: absolute;
+}
+
+.a1{
+    position: absolute;
+}
+
+@media screen and (min-width:360px) and (max-width:500px) {
+    .cont{
+        background-image: url("ani.gif");
+        background-repeat: no-repeat;
+        background-size: 100% 70vh;
+        height: 2500px;
+    }
+    .txt
+    {
+        font-weight: bolder;
+        font-size: 30px;
+        color: brown;
+    }
+    .img
+    {
+        margin-left: 40px;
+        width:100px;
+         height:100px;
+        animation-name: ro;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease;
+        animation-duration: 10s;
+        
+    }
+    @keyframes ro
+    {
+        100%
+        {
+            transform: rotate(360deg);
+            transition: linear;
+    
+        }
+    }
+    
+    .a1{
+        position: absolute;
+    }
+    
+    .a2{
+        position: absolute;
+        margin-top: 3000px;
+    
+    }
+    
+    .a1{
+        position: absolute;
+    }
+    
+    .a1{
+        position: absolute;
+    }
+    
+    .a1{
+        position: absolute;
+    }
+    
+    
+}
